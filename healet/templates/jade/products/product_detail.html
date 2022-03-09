@@ -1,0 +1,24 @@
+{% extends 'jade/base.html' %}
+{% load static %}
+{% block content %}
+    <section class="shop_section layout_padding">
+        <div class="container">
+            <div class="heading_container heading_center">
+                <h2>
+                    {{ product.name }}
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col text-left">${{ product.price }}</div>
+                <a class="col text-center"  href="{{ product.category.get_absolute_url }}">{{ product.category.name }}</a>
+                <div class="col text-right">{{ product.author.username }}</div>
+                {{ product.description|linebreaks }}
+            </div>
+            <div class="row">
+                {% for image in product.product_image.all %}
+                        <img src="{{ image.image.url }}" class="col-sm-6 col-md-4 col-lg-2 p-1">
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+{% endblock content %}
