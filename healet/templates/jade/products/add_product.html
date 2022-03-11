@@ -4,7 +4,7 @@
     <section class="about_section  ">
         <div class="container mt-3">
             <h1 class="text-center">Add Products</h1>
-            <form method="post" enctype="multipart/form-data">
+            <form method="POST" enctype="multipart/form-data">
                 {% csrf_token %}
                 {% for form in product_form %}
                     {{ form.label }}
@@ -14,13 +14,13 @@
                 {% endfor %}
             {% if product_image_form %}
                 {% for form in product_image_form %}
-{#                    {% if forloop.last %}#}
-{#                    {% else %}#}
+                    {% if forloop.last %}
+                    {% else %}
                     {{ form.label }}
                     {{ form }}
                     <p class="btn-danger">{{ form.errors }}</p>
                     <hr/>
-{#                    {% endif %}#}
+                    {% endif %}
                 {% endfor %}
             {% endif %}
             <div>

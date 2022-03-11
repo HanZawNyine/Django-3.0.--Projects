@@ -3,7 +3,8 @@ from .models import Product, ProductImage, Category, Comment, Profile
 from .forms import CommentForm, ProductForm, ProductImagForm
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.utils.text import slugify
-from django.forms import inlineformset_factory,formset_factory,modelformset_factory
+from django.forms import inlineformset_factory, formset_factory, modelformset_factory
+import os
 
 
 # Create your views here.
@@ -104,32 +105,24 @@ def update_product(request, year, month, day, slug):
     product = get_object_or_404(Product, slug=slug, created__year=year, created__month=month, created__day=day)
     images = product.product_image.all()
     product_form = ProductForm(instance=product)
-    # product_image_form = modelformset_factory(ProductImage, form=ProductImagForm)
-    # product_image_form = product_image_form(queryset=image)
-    product_image_form = []
-    for image in images:
-        product_image_form.append(ProductImagForm(instance=image))
-    if request.method == 'POST':
-        product_image_form.clear()
-        for image in images:
-            product_image_form.append(ProductImagForm(request.POST,request.FILES,instance=image))
+    ProductImageFOrm = modelformset_factory(ProductImage, form=ProductImagForm)
+    product_image_form = ProductImageFOrm(queryset=images)
+    if request.method == "POST":
+        product_image_form = ProductImageFOrm(request.POST, request.FILES, queryset=images)
+        # images.delete()
+        product_image_form.save()
+        product_form = ProductForm(request.POST, instance=product)
         images = request.FILES.getlist('images')
-        product_form = ProductForm(instance=product,data=request.POST)
-        print("GGB BRO : ")
         if product_form.is_valid():
             prepare = product_form.save(commit=False)
             prepare.author = request.user
             prepare.slug = slugify(prepare.name)
             prepare.save()
-            print("GGB BRO : ",1)
             if images:
                 for img in images:
                     product_image = ProductImage.objects.create(product=prepare, image=img)
                     product_image.save()
-            for image_form in product_image_form:
-                if image_form.is_valid():
-                    image_form = image_form.save(commit=False)
-                    image_form.save()
-            return redirect('jade:profile')
+
+        return redirect('jade:profile')
     return render(request, 'jade/products/add_product.html',
                   {"product_form": product_form, "product_image_form": product_image_form})

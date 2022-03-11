@@ -43,7 +43,7 @@
                     <div class="box">
                         <a href="{{product.get_absolute_url}}">
                             <div class="img-box">
-                                <img src="{% if product.product_image.all.0.image.url %}{{ product.product_image.all.0.image.url }}{% else %}{% static 'images/no_image.png' %}{% endif %}" alt="">
+                                <img src="{% if product.product_image.all %}{{ product.product_image.all.0.image.url }}{% else %}{% static 'images/no_image.png' %}{% endif %}" alt="">
                             </div>
                          <p class="text-muted text-center">{{ product.created|naturaltime }}</p>
                             <div class="detail-box">

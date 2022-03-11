@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="499f9512-9b14-4a4b-8a1d-531830ef08d9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/healet/jade/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/jade/migrations/0005_comment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/jade/migrations/0006_comment_created.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/jade/migrations/0007_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/jade/migrations/0008_profile_description.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/jade/static/images/no_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/10/83381173_187030759186984_4211428743278755840_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/10/83381173_187030759186984_4211428743278755840_n_HQc3N7I.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/10/83381173_187030759186984_4211428743278755840_n_OMxZNg6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/10/83381173_187030759186984_4211428743278755840_n_Qna8j0i.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/10/83381173_187030759186984_4211428743278755840_n_f2dWXvP.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/275005940_280851434189693_2065720502761266259_n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/275005940_280851434189693_2065720502761266259_n_5QGVYvm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/275005940_280851434189693_2065720502761266259_n_698iVDj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/83381173_187030759186984_4211428743278755840_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/83381173_187030759186984_4211428743278755840_n_5jEZqR6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/83381173_187030759186984_4211428743278755840_n_FC4vMpF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/83381173_187030759186984_4211428743278755840_n_cIB6g5Z.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/about-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/about-img_GKsjwd1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/about-img_HA2KKFd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/about-img_QUUkHbc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/about-img_e4j1Zod.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/about-img_x2FzqIg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/about-img_xQSpjgE.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b1_3ApWkAQ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b1_6tcaRV4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b1_7Cvqcxi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b1_7unbjKg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b1_Juo6fy9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b1_NH7Psa9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_0ZuDS1L.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_2jWs8yG.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_6PdezR5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_7GpBcLz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_EGJFuNN.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_Hs4QY3A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_JEtXRb8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_Jt23rcy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_M9Ei52D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_VoCm9CF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_ZGdSMRu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_Zb3pYLi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_m5bfVSh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2_p20tQ85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/client_2ANd8vz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/client_BPIKUQS.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/client_IoDLgE3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/client_IrrUUvR.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/client_eMvv7Cu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/client_fpFjuHq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/client_kmMIMK3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/favicon_AfcBodT.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/favicon_RkBShx6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o1_3YCemmg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o1_WBzzdaL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o1_gTR8hYu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o1_un6BHT6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o1_uy5s1j4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o1_x8Xb5Wu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o2_1JHIctF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o2_3Nqtjxy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o2_QivdCVX.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o2_Vdz1oVi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o2_X7M1l7N.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o2_ksG2zkf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o2_l715Ium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o3_5w6Gryu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o3_B4GDRz6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o3_Co4o1bm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o3_MpFeP4F.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o3_RXReF55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o3_i7IxF8B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o3_ppSPRLZ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o3_qfQffa0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p1_3ivewaj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p1_XGLtJJx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p1_gmb8Zuc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p2_IFS9wdD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p2_M58Tmmn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p2_dWKHBJF.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p3_GWkkXwq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p3_QqNcqNY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p3_hULoCVo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p4_734bYeK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p4_FLXHpvJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p4_hRWI7kx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p5_b2Cf8lB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p5_hNDCJbn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p5_tAA2N4y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p6_2JE6TsK.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p6_AJaiwIJ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p6_Y59sCqg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p7_XD5Ooc4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p7_eRZbMK2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p7_iwRLhOB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p8_k8iF25m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p8_tGij1Ph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p8_tr6n5gD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/slider-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/slider-bg_8TSlpva.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/slider-bg_KmOVOqL.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/slider-bg_p4tj9sT.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/slider-bg_r2UDPlF.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/media/profiles/83381173_187030759186984_4211428743278755840_n.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/templates/jade/about/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/templates/jade/components/comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/templates/jade/components/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/templates/jade/components/pagination.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/healet/templates/jade/products/add_product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/healet/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/healet/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/healet/healet/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/healet/jade/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/healet/jade/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/healet/jade/static/css/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/b1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/b2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/b2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/client.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/client.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/o1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/o2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/o3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/o3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/p1.png" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/p2.png" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/p3.png" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/p4.png" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/p5.png" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/p6.png" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/p7.png" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/static/images/p8.png" beforeDir="false" afterPath="$PROJECT_DIR$/healet/media/products/2022/03/11/p8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/healet/jade/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/jade/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/healet/jade/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/templates/jade/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/healet/templates/jade/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/templates/jade/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/healet/templates/jade/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/templates/jade/products/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/healet/templates/jade/products/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/healet/templates/jade/products/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/healet/templates/jade/products/product_list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26E8Ud6x2oSwcAvRVhXiylpCpDs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>
