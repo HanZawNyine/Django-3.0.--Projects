@@ -1,0 +1,60 @@
+{% extends 'jade/base.html' %}
+{% load static %}
+{% load humanize %}
+{% block content %}
+    <section class="about_section  ">
+        <div class="container">
+            <div class="row mt-4">
+                <div class="col-3">
+                    <img src="{% if user_profile.image.url %}{{ user_profile.image.url }} {% else %}{% static 'images/no_image.png' %}{% endif %}" class="rounded-circle" width="100%">
+                </div>
+                <div class="col mt-3">
+                    <div class=" col card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ user_profile.username }}</h5>
+                            <p class="card-text text-center">{{ user_profile.description|linebreaks }}</p>
+
+                        </div>
+                        <div class="card-footer text-muted">
+                            {{ user_profile.created|naturaltime }}
+                        </div>
+                    </div>
+                    <div class="row mt-3 mx-1">
+                        <a class="btn btn-outline-primary mx-1">update Profile</a>
+                        <a class="btn btn-outline-primary mx-1" href="{% url 'jade:add_product' %}">add product</a>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="row">
+                <div class="col text-left">{{ user_profile.phone_no }}</div>
+                <div class="col text-right">{{ user_profile.username.email }}</div>
+            </div>
+
+            {% for product in products %}
+                <hr/>
+                <div class="card mb-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="{% if product.product_image.all.image %}{{ product.product_image.all.0.image.url }}{% else %}{% static 'images/no_image.png' %}{% endif %}" class="img-fluid rounded-start"
+                                 alt="{% if product.product_image.all.image.url %}{{ product.product_image.all.0.image.url }}{% else %}{% static 'images/no_image.png' %}{% endif %}" width="100%">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">{{ product.name }}</h5>
+                                <p class="card-text">{{ product.description|truncatewords:30 }}</p>
+                                <p class="card-text"><small class="text-muted">{{ product.created|naturaltime }}</small></p>
+                                <div class="row">
+                                    <a href="{{ product.get_absolute_url }}" class="col btn btn-outline-primary m-3">See Details</a>
+                                    <a href="{{ product.get_product_update_url }}" class="col btn btn-outline-warning m-3">Update</a>
+                                    <a href="{{ product.get_absolute_url }}" class="col btn btn-outline-danger m-3">Remove</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+        {% include "jade/components/pagination.html" with page=products %}
+{% endblock %}

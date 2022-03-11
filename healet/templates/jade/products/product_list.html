@@ -1,5 +1,6 @@
 {% extends 'jade/base.html' %}
 {% load static %}
+{% load humanize %}
 {% block content %}
     <section class="shop_section layout_padding">
         <div class="container">
@@ -27,43 +28,36 @@
                         </ul>
                     </div>
                 </div>
-            <div class="col">
-                <div class="row">
-                    {% for product in products %}
-                        <div class="col-sm-6 col-md-4 col-lg-3">
-                            <div class="box">
-                                <a href="{{ product.get_absolute_url }}">
-                                    <div class="img-box">
-                                        <img src="{{ product.product_image.all.0.image.url }}"
-                                             alt="{{ product.product_image.all.0.image.url }}">
-                                    </div>
-                                    <div class="detail-box">
-                                        <h6>
-                                            {{ product.name }}
-                                        </h6>
-                                        <h6>
-                                            Price
-                                            <span>
-                    ${{ product.price }}
-                  </span>
-                                        </h6>
-                                    </div>
-                                    <div class="new">
-                <span>
-                  New
-                </span>
-                                    </div>
-                                </a>
+                <div class="col">
+                    <div class="row">
+                        {% for product in products %}
+                            <div class="col-sm-6 col-md-4 col-lg-4">
+                                <div class="box">
+                                    <a href="{{ product.get_absolute_url }}">
+                                        <div class="img-box">
+                                            <img src="{% if product.product_image.all.0.image.url %}{{ product.product_image.all.0.image.url }}{% else %}{% static 'images/no_image.png' %}{% endif %}"
+                                                 alt="{{ product.product_image.all.0.image.url }}">
+                                        </div>
+                                        <p class="text-muted text-center">{{ product.created|naturaltime }}</p>
+                                        <div class="detail-box">
+                                            <h6>
+                                                {{ product.name }}
+                                            </h6>
+                                            <h6> Price
+                                                <span>${{ product.price }}</span>
+                                            </h6>
+                                        </div>
+                                        <div class="new"><span>New</span>
+                                        </div>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                    {% endfor %}
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
-
-            </div>
-
-
         </div>
         </div>
     </section>
+    {% include "jade/components/pagination.html" with page=products %}
 {% endblock content %}

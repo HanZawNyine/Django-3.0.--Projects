@@ -1,0 +1,34 @@
+{% extends 'jade/base.html' %}
+{% load widget_tweaks %}
+{% block content %}
+    <section class="about_section  ">
+        <div class="container mt-3">
+            <h1 class="text-center">Add Products</h1>
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {% for form in product_form %}
+                    {{ form.label }}
+                    {{ form|add_class:"form-control" }}
+                    <p class="btn-danger">{{ form.errors }}</p>
+                    <hr/>
+                {% endfor %}
+            {% if product_image_form %}
+                {% for form in product_image_form %}
+{#                    {% if forloop.last %}#}
+{#                    {% else %}#}
+                    {{ form.label }}
+                    {{ form }}
+                    <p class="btn-danger">{{ form.errors }}</p>
+                    <hr/>
+{#                    {% endif %}#}
+                {% endfor %}
+            {% endif %}
+            <div>
+                <span>Images:</span>
+                <input type="file" multiple class="mb-3" name="images"/>
+            </div>
+                <input type="submit" class="col-12 btn btn-primary" value="add image">
+            </form>
+        </div>
+    </section>
+{% endblock %}

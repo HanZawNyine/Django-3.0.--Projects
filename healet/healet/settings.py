@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'jade.apps.JadeConfig',
+    'django.contrib.humanize',
+    'widget_tweaks'
 
 ]
 

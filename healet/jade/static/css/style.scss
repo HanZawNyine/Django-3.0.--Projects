@@ -2,7 +2,7 @@ $white: #ffffff;
 $black: #000000;
 $primary1: #fd9c6b;
 $primary2: #160e0b;
-$bgColor:#f9fafa;
+$bgColor: #f9fafa;
 
 // import fonts
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
@@ -296,7 +296,6 @@ a:focus {
 }
 
 
-
 .navbar-brand {
   margin-top: 10px;
 
@@ -307,7 +306,6 @@ a:focus {
     text-transform: uppercase;
   }
 }
-
 
 
 /*end header section*/
@@ -483,7 +481,7 @@ a:focus {
 // offer section
 
 .offer_section {
-  .row>div {
+  .row > div {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -865,6 +863,5 @@ a:focus {
     }
   }
 }
-
 
 // end footer section
